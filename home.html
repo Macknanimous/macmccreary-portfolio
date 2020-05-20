@@ -4,14 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="fontawesome-5.13.0/css/all.css">
     <title>Mac McCreary - Portfolio</title>
 </head>
 <body>
+    <nav id="navbar">
+        <a href="#welcome-section" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Work</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
     <main>
-        <section id="welcome-section">
-            <h1>
+        <section id="welcome-section" class="welcome-section">
+            <h1 class="welcome-section-header">
                 Hello there! My name is Mac McCreary
             </h1>
+            <p class="welcome-section-description">I'm an up and coming web designer & developer based out in Beaverton, Oregon. Check out the work I've done below!</p>
+        </section>
+        <section id="projects" class="projects-section">
+            <h2 class="projects-section-header">These are some projects I've completed so far</h2>
+            <div class="projects-grid">
+                <a href="https://macknanimous.github.io/Tribute-Website/home.html" id="tribute-page">
+                    <p class="project-title">Tribute Page</p>
+                </a>
+                <a href="https://macknanimous.github.io/Survey-Form-Website/home.html" id="survey-page">
+                    <p class="project-title">Survey Form Page</p>
+                </a>
+                <a href="https://macknanimous.github.io/Martha-Website/home.html" id="product-page">
+                    <p class="project-title">Product Multi-Page Website</p>
+                </a>
+                <a href="https://macknanimous.github.io/how-to-play-hearthstone/home.html" id="documentation-page">
+                    <p class="project-title">Documentation Page for Hearthstone</p>
+                </a>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <h1 class="contact-section-header">
+                Like what you see? Lets work together!
+            </h1>
+            <p class="contact-section-description">Lets chat over a coffee?</p>
+            <div class="contact-link-container">
+                <a href="https://github.com/Macknanimous" id="profile-link" class="btn contact-details">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <a href="https://github.com/Macknanimous" id="email-link" class="btn contact-details">
+                    <i class="far fa-envelope"></i>
+                    Send an Email
+                </a>
+            </div>
         </section>
     </main>
 </body>
